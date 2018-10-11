@@ -1,0 +1,17 @@
+[metadata]
+name = 'django-project-proto'
+version = '0.0.1'
+description = ''
+author = 'Eric Wang'
+author_email = 'wangrq@jclife.com'
+license = 'MIT/Apache-2.0'
+url = 'https://github.com/_/django-project-proto'
+
+[requires]
+python_version = ['2.7', '3.5', '3.6', 'pypy', 'pypy3']
+
+[build-system]
+requires = ['setuptools', 'wheel']
+
+[tool.hatch.commands]
+prerelease = 'hatch build'

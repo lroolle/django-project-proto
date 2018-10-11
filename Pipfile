@@ -1,0 +1,15 @@
+[[source]]
+url = "http://pypi.doubanio.com/simple/"
+verify_ssl = false 
+name = "pypi"
+trusted-host="pypi.douban.com"
+
+[packages]
+django = "*"
+django-request = "*"
+djangorestframework = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"

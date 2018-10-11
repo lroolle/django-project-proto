@@ -1,0 +1,15 @@
+[run]
+source =
+    django_project_proto
+    tests
+branch = True
+omit =
+    django_project_proto/cli.py
+
+[report]
+exclude_lines =
+    no cov
+    no qa
+    noqa
+    pragma: no cover
+    if __name__ == .__main__.:
